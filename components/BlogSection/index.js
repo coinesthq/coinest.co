@@ -14,6 +14,7 @@ const BlogSection = () => (
       section {
         padding: 60px 0;
         background-image: linear-gradient(-135deg, #29323C 0%, #485563 100%);
+        background-image: linear-gradient(-135deg, #485563 0%, #29323C 100%);
       }
 
       h1 {

@@ -4,6 +4,7 @@ import IntroSection from '../components/IntroSection';
 import TeamSection from '../components/TeamSection';
 import NewsletterForm from '../components/NewsletterForm';
 import BlogSection from '../components/BlogSection';
+import Footer from '../components/Footer';
 
 export default class extends React.Component {
   static async getInitialProps({ req }) {
@@ -18,9 +19,10 @@ export default class extends React.Component {
         <TeamSection />
         <NewsletterForm />
         <BlogSection />
-        <div>
+        <Footer/>
+        {/* <div>
           Hello World {this.props.userAgent}
-        </div>
+        </div> */}
       </Layout>
     )
   }

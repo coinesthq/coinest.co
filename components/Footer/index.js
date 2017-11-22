@@ -1,29 +1,44 @@
 import Link from 'next/link'
-import BgLogo from './coinest-brand.svg';
-import CoinestLogo from './coinest-logo.svg';
+import FbLogo from './icon-social-fb.svg';
+import TwLogo from './icon-social-tw.svg';
 
-const Header = () => (
-  <header>
-    <div className="bg-logo">
-      <BgLogo />
+const Footer = () => (
+  <footer>
+    <div className="inner-wrapper">
+      <p className="legal-disclaimer">Copyright © 2017 Coinest. All rights reserved.</p>
+      <nav>
+        <ul>
+          <li>
+            <a href=""><TwLogo/></a>
+          </li>
+          <li>
+            <a href=""><FbLogo/></a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <Link href="/">
-      <h1 className="logo"><CoinestLogo /></h1>
-    </Link>
-    <nav>
-      <ul>
-        <li>Blog</li>
-        <li>Contacto@coinest.co</li>
-      </ul>
-    </nav>
     <style jsx>{`
-      header {
+      footer {
+        position: relative;
+        padding: 60px 0 30px;
+        background-color: rgba(207, 217, 223, 0.3);
+      }
+
+      .inner-wrapper {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        max-width: 1200px;
-        padding: 0 30px;
+        max-width: 897px;
         margin: 0 auto;
+        border-top: 1px solid #ccc;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .legal-disclaimer {
+        font-weight: 100;
+        font-size: 14px;
+        color: #182E8C;
+        margin: 0;
+        line-height: 1;
       }
 
       .logo {
@@ -69,7 +84,7 @@ const Header = () => (
         letter-spacing: -0.32px;
       }
     `}</style>
-  </header>
+  </footer>
 )
 
-export default Header
+export default Footer

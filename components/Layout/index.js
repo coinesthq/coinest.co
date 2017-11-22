@@ -18,6 +18,7 @@ const Layout = ({ title, description, children }) =>
 
       .container {
         max-width: 916px;
+        padding: 0 15px;
         margin: 0 auto;
       }
 

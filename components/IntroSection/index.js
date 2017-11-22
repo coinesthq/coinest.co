@@ -50,7 +50,7 @@ const IntroSection = () => (
       }
 
       .intro-description {
-        margin: 0 0 25px;
+        margin: 0 0 28px;
         font-size: 20px;
         line-height: 27px;
         font-weight: 200;

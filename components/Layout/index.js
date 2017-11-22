@@ -22,7 +22,8 @@ const Layout = ({ title, description, children }) =>
         margin: 0 auto;
       }
 
-      button {
+      button,
+      input[type=submit] {
         padding: 12px 30px;
         background: #FD1C40;
         border-radius: 110px;

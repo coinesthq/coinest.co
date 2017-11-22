@@ -6,7 +6,7 @@ import i18n from '../i18n';
 import Layout from '../components/Layout';
 import IntroSection from '../components/IntroSection';
 import TeamSection from '../components/TeamSection';
-import NewsletterForm from '../components/NewsletterForm';
+import NewsletterFormMc from '../components/NewsletterFormMc';
 import BlogSection from '../components/BlogSection';
 import Footer from '../components/Footer';
 
@@ -15,7 +15,7 @@ function Home({ t, initialI18nStore }) {
     <Layout title="coinest" description="landing page">
       <IntroSection t={t} />
       <TeamSection t={t} />
-      <NewsletterForm t={t} />
+      <NewsletterFormMc t={t} />
       <BlogSection t={t} />
       <Footer t={t} />
     </Layout>

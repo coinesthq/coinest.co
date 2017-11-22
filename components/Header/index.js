@@ -12,8 +12,16 @@ const Header = () => (
     </Link>
     <nav>
       <ul>
-        <li>Blog</li>
-        <li>Contacto@coinest.co</li>
+        <li>
+          <a href="https://blog.coinest.co/" target="_blank">
+            Blog
+          </a>
+        </li>
+        <li>
+          <a href="mailto:Contacto@coinest.co">
+            Contacto@coinest.co
+          </a>
+        </li>
       </ul>
     </nav>
     <style jsx>{`
@@ -56,6 +64,10 @@ const Header = () => (
         position: absolute;
       }
 
+      .bg-logo {
+        max-width: 100%;
+      }
+
       ul {
         list-style: none;
       }
@@ -63,11 +75,16 @@ const Header = () => (
       ul li {
         display: inline-block;
         padding: 0 16px;
-        font-family: .AppleSystemUIFont;
         font-size: 13px;
         color: #182E8C;
         letter-spacing: -0.32px;
       }
+
+      ul li a {
+        color: #182E8C;
+        text-decoration: none;
+      }
+
     `}</style>
   </header>
 )

@@ -1,18 +1,18 @@
-const NewsletterForm = () => (
+const NewsletterForm = ({ t }) => (
   <section>
     <div className="container">
       <div className="inner-wrapper">
-        <h1 className="form_title">Suscripción al Newsletter</h1>
+        <h1 className="form_title">{t('newsletterSection.title')}</h1>
         <form action="">
           <div className="input-wrapper">
-            <input type="email" placeholder="Email" />
+            <input type="email" placeholder={t('newsletterSection.emailField')} />
             <select name="" id="">
-              <option value="">¿Conoces de criptomonedas?</option>
-              <option value="">Nada</option>
-              <option value="">Un poco</option>
-              <option value="">Bastante</option>
+              <option value="">{t('newsletterSection.selectField1')}</option>
+              <option value="">{t('newsletterSection.selectField2')}</option>
+              <option value="">{t('newsletterSection.selectField3')}</option>
+              <option value="">{t('newsletterSection.selectField4')}</option>
             </select>
-            <button>Suscribite</button>
+            <button>{t('newsletterSection.button')}</button>
           </div>
         </form>
       </div>
@@ -24,9 +24,15 @@ const NewsletterForm = () => (
 
       .inner-wrapper {
         position: relative;
-        max-width: 896px;
+        max-width: 100%;
         padding-top: 60px;
         padding-bottom: 80px;
+      }
+
+      @media (min-width: 992px) {
+        .inner-wrapper {
+          max-width: 896px;
+        }
       }
 
       .inner-wrapper:after {
@@ -50,13 +56,27 @@ const NewsletterForm = () => (
 
       .input-wrapper {
         display: flex;
+        flex-direction: column;
         margin-left: -15px;
         margin-right: -15px;
       }
 
+      @media (min-width: 992px) {
+        .input-wrapper {
+          flex-direction: row;
+          max-width: 896px;
+        }
+      }
+
       .input-wrapper > * {
         flex: 1;
-        margin: 0 15px;
+        margin: 0 15px 30px;
+      }
+
+      @media (min-width: 992px) {
+        .input-wrapper > * {
+          margin: 0 15px;
+        }
       }
 
       input {
@@ -98,8 +118,10 @@ const NewsletterForm = () => (
         color: #182E8C;
       }
 
-      .input-wrapper button {
-        flex: 0 0 163px
+      @media (min-width: 992px) {
+        .input-wrapper button {
+          flex: 0 0 163px
+        }
       }
     `}</style>
   </section>

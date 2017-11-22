@@ -1,12 +1,24 @@
 import TeamMember from '/components/TeamMember'
 
-const TeamSection = () => (
+const TeamSection = ({ t }) => (
   <section>
     <div className="container">
       <div className="inner-wrapper">
         <ul className="team-members_container">
-          <TeamMember image="http://www.teequilla.com/images/tq/empty-avatar.png" name="Julio Alvarez" info="Founder / Head of Economic Research" email="julio@coinest.co" country="arg"/>
-          <TeamMember image="http://www.teequilla.com/images/tq/empty-avatar.png" name="Pablo Wilner" info="Founder / Head of Operations" email="pablo@coinest.co" country="arg"/>
+          <TeamMember
+            image="http://www.teequilla.com/images/tq/empty-avatar.png"
+            name={t('teamSection.teamMembers.teamMember1.name')}
+            info={t('teamSection.teamMembers.teamMember1.title')}
+            email={t('teamSection.teamMembers.teamMember1.email')}
+            country={t('teamSection.teamMembers.teamMember1.country')}
+          />
+          <TeamMember
+            image="http://www.teequilla.com/images/tq/empty-avatar.png"
+            name={t('teamSection.teamMembers.teamMember2.name')}
+            info={t('teamSection.teamMembers.teamMember2.title')}
+            email={t('teamSection.teamMembers.teamMember2.email')}
+            country={t('teamSection.teamMembers.teamMember2.country')}
+          />
         </ul>
       </div>
     </div>

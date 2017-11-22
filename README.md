@@ -1,9 +1,8 @@
-# Coinest Landing
+# Getting started
 
-## Installation
+Build with [next.js](https://github.com/zeit/next.js/).
 
-> npm install
-
-> npm run dev
-
-> open localhost:3000
+```bash
+# npm install
+# npm run dev
+```

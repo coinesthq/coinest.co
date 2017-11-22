@@ -1,32 +1,31 @@
-const IntroSection = () => (
+const IntroSection = ({t}) => (
   <section>
     <div className="container">
       <div className="inner-wrapper">
         <h1 className="intro-title">
-          Explora. Aprende. Invierte.
+          {t('introSection.mainTitle')}
         </h1>
         <p className="intro-description main">
-        Somos la primera plataforma de Latinoamérica en acercar los proyectos más disruptivos de tecnología Blockchain a inversores de la región.
+          {t('introSection.mainDescription')}
         </p>
         <h2 className="intro-subtitle">
-          El primer canal de distribución de tokens para inversores
+          {t('introSection.subtitle1')}
         </h2>
         <p className="intro-description">
-          Queremos acercar de una manera simple un nuevo tipo de activo como son las criptomonedas. Sabemos lo difícil que es participar en un ICO hoy en día. Mejoramos la experiencia de usuario durante el proceso de selección de proyectos disruptivos y en la adquisición de sus tokens.
+          {t('introSection.subtext1')}
         </p>
         <h2 className="intro-subtitle">
-          Una plataforma para la difusión de proyectos Blockchain
+          {t('introSection.subtitle2')}
         </h2>
         <p className="intro-description">
-          Ofrecemos un servicio de advertising para dar visibilidad a nuevos proyectos del ecosistema blockchain y conectarlos con potenciales inversores en Latinoamérica.
+          {t('introSection.subtext2')}
         </p>
         <h2 className="intro-subtitle">
-          Sobre nuestro equipo
+          {t('introSection.subtitle3')}
         </h2>
         <p className="intro-description">
-          Somos un grupo de analistas financieros y programadores blockchain que queremos eliminar barreras informativas, técnicas y operativas para acercar a la sociedad los beneficios del mundo de las criptomonedas.
+          {t('introSection.subtext3')}
         </p>
-
       </div>
     </div>
     <style jsx>{`

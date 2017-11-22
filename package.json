@@ -1,22 +1,27 @@
 {
-  "name": "cointest",
+  "name": "coinest",
   "version": "1.0.0",
-  "description": "coinest landing",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next -p 8080"
-
+    "start": "NODE_ENV=production node server.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "babel-plugin-inline-react-svg": "^0.4.0",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "express": "^4.15.3",
+    "i18next": "8.4.2",
+    "i18next-browser-languagedetector": "2.0.0",
+    "i18next-express-middleware": "1.0.5",
+    "i18next-node-fs-backend": "1.0.0",
+    "i18next-xhr-backend": "1.4.2",
     "next": "^4.1.4",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "babel-plugin-inline-react-svg": "^0.4.0",
-    "babel-plugin-module-resolver": "^2.7.1"
+    "react-i18next": "6.0.6"
   }
 }
-

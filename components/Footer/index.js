@@ -2,7 +2,7 @@ import Link from 'next/link'
 import FbLogo from './icon-social-fb.svg';
 import TwLogo from './icon-social-tw.svg';
 
-const Footer = () => (
+const Footer = ({ t }) => (
   <footer>
     <div className="inner-wrapper">
       <p className="legal-disclaimer">Copyright © 2017 Coinest. All rights reserved.</p>
@@ -34,8 +34,9 @@ const Footer = () => (
       }
 
       .legal-disclaimer {
-        font-weight: 100;
+        padding: 0 15px;
         font-size: 14px;
+        font-weight: 100;
         color: #182E8C;
         margin: 0;
         line-height: 1;
@@ -77,7 +78,7 @@ const Footer = () => (
 
       ul li {
         display: inline-block;
-        padding: 0 16px;
+        padding: 0 10px;
         font-family: .AppleSystemUIFont;
         font-size: 13px;
         color: #182E8C;

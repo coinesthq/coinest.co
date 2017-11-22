@@ -1,13 +1,25 @@
-const BlogSection = () => (
+const BlogSection = ({ t }) => (
   <section>
     <div className="container">
-      <h1>Te invitamos a explorar nuestras noticias y tutoriales</h1>
-      <p>Contenido simple y claro para descubrir las nuevas oportunidades</p>
+      <h1>{t('blogSection.title')}</h1>
+      <p>{t('blogSection.subtitle')}</p>
       <div className="red-divider"></div>
       <ul className="blog-list">
-        <li className="blog-list_item">¿Por qué es importante entender qué es Bitcoin, Blockchain?</li>
-        <li className="blog-list_item">Beneficios de las criptomonedas como nueva clase de activos</li>
-        <li className="blog-list_item">¿Qué son las criptomonedas?</li>
+        <li className="blog-list_item">
+          <a href={t('blogSection.articles.article1.link')} target="_blank">
+            {t('blogSection.articles.article1.title')}
+          </a>
+        </li>
+        <li className="blog-list_item">
+          <a href={t('blogSection.articles.article2.link')} target="_blank">
+            {t('blogSection.articles.article2.title')}
+          </a>
+        </li>
+        <li className="blog-list_item">
+          <a href={t('blogSection.articles.article2.link')} target="_blank">
+            {t('blogSection.articles.article2.title')}
+          </a>
+        </li>
       </ul>
     </div>
     <style jsx>{`
@@ -55,12 +67,20 @@ const BlogSection = () => (
 
       .blog-list {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
-        max-width: 850px;
+        max-width: 100%;
         padding: 66px 0 0;
         list-style: none;
         margin: 0;
+      }
+
+      @media (min-width: 992px) {
+        .blog-list {
+          flex-direction: row;
+          max-width: 850px;
+        }
       }
 
       .blog-list_item {
@@ -72,6 +92,11 @@ const BlogSection = () => (
         color: #FFFFFF;
         line-height: 28px;
         margin-bottom: 30px;
+      }
+
+      .blog-list_item a {
+        color: #FFFFFF;
+        text-decoration: none;
       }
 
       .blog-list_item:before{

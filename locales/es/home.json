@@ -45,16 +45,16 @@
     "subtitle": "Contenido simple y claro para descubrir las nuevas oportunidades",
     "articles": {
       "article1": {
-        "title": "¿Por qué es importante entender qué es Bitcoin, Blockchain?",
-        "link": "http://"
+        "title": "¿Por qué entender qué es Bitcoin, Blockchain y Ethereum?",
+        "link": "https://blog.coinest.co/por-que-entender-bitcoin-blockchain-y-ethereum/"
       },
       "article2": {
-        "title": "Beneficios de las criptomonedas como nueva clase de activos",
-        "link": "http://"
+        "title": "¿Qué es un ICO?",
+        "link": "https://blog.coinest.co/tutorial-que-es-un-ico/"
       },
       "article3": {
         "title": "¿Qué son las criptomonedas?",
-        "link": "http://"
+        "link": "https://blog.coinest.co/tutorial-que-son-las-criptomonedas/"
       }
     }
   },

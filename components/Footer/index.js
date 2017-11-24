@@ -9,10 +9,10 @@ const Footer = ({ t }) => (
       <nav>
         <ul>
           <li>
-            <a href=""><TwLogo/></a>
+            <a href="https://twitter.com/CoinestOfficial" target="_blank"><TwLogo/></a>
           </li>
           <li>
-            <a href=""><FbLogo/></a>
+            <a href="https://www.facebook.com/Coinest.co/" target="_blank"><FbLogo/></a>
           </li>
         </ul>
       </nav>

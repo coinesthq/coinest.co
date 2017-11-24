@@ -12,9 +12,9 @@ const NewsletterFormMc = ({t}) => (
               <div className="mc-field-group">
                 <select name="MMERGE3" id="mce-MMERGE3">
                   <option value="" disabled selected hidden>¿Conoces de criptomonedas?</option>
-                  <option value={t('newsletterSection.selectField1')}>{t('newsletterSection.selectField1')}</option>
                   <option value={t('newsletterSection.selectField2')}>{t('newsletterSection.selectField2')}</option>
                   <option value={t('newsletterSection.selectField3')}>{t('newsletterSection.selectField3')}</option>
+                  <option value={t('newsletterSection.selectField4')}>{t('newsletterSection.selectField4')}</option>
 
                 </select>
               </div>

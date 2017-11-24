@@ -6,14 +6,14 @@ const TeamSection = ({ t }) => (
       <div className="inner-wrapper">
         <ul className="team-members_container">
           <TeamMember
-            image="http://www.teequilla.com/images/tq/empty-avatar.png"
+            image="./static/julio.png"
             name={t('teamSection.teamMembers.teamMember1.name')}
             info={t('teamSection.teamMembers.teamMember1.title')}
             email={t('teamSection.teamMembers.teamMember1.email')}
             country={t('teamSection.teamMembers.teamMember1.country')}
           />
           <TeamMember
-            image="http://www.teequilla.com/images/tq/empty-avatar.png"
+            image="./static/pablo.png"
             name={t('teamSection.teamMembers.teamMember2.name')}
             info={t('teamSection.teamMembers.teamMember2.title')}
             email={t('teamSection.teamMembers.teamMember2.email')}

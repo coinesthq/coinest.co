@@ -29,6 +29,7 @@ const TeamSection = ({ t }) => (
 
       .team-members_container {
         display: flex;
+        flex-direction: column;
         padding: 0;
         padding-top: 32px;
         padding-bottom: 60px;
@@ -38,6 +39,12 @@ const TeamSection = ({ t }) => (
         margin-bottom: 0;
         border-bottom: 1px solid #eee;
         list-style: none;
+      }
+
+      @media (min-width: 992px) {
+        .team-members_container {
+          flex-direction: row;
+        }
       }
     `}</style>
   </section>

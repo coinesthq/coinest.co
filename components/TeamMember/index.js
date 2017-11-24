@@ -10,9 +10,20 @@ const TeamMember= ({image, name, info, email, country}) => (
     </div>
     <style jsx>{`
       .team-member {
-        padding: 0 15px;
         display: flex;
         position: relative;
+        padding: 0 15px;
+        margin-bottom: 30px;
+      }
+
+      .team-member:last-child {
+        margin-bottom: 0;
+      }
+
+      @media (min-width: 992px) {
+        .team-member {
+          margin: 0;
+        }
       }
 
       .team-member_country {

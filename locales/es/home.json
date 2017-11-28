@@ -4,7 +4,7 @@
     "topContact": "Contacto@coinest.co"
   },
   "introSection": {
-    "mainTitle": "Explora. Aprende. Invierte.",
+    "mainTitle": "Explora. Descubre. Invierte.",
     "mainDescription": "Somos la primera plataforma de Latinoamérica en acercar los proyectos más disruptivos de tecnología Blockchain a inversores de la región.",
     "subtitle1": "El primer canal de distribución de tokens para inversores",
     "subtext1": "Queremos acercar de una manera simple un nuevo tipo de activo como son las criptomonedas. Sabemos lo difícil que es participar en un ICO hoy en día. Mejoramos la experiencia de usuario durante el proceso de selección de proyectos disruptivos y en la adquisición de sus tokens.",
@@ -17,14 +17,14 @@
     "teamMembers": {
       "teamMember1": {
         "name": "Julio Alvarez",
-        "title": "Founder / Head of Economic Research",
+        "title": "Founder / Economic Research",
         "email": "julio@coinest.co",
         "image": "",
         "country": "Arg"
       },
       "teamMember2": {
         "name": "Pablo Wilner",
-        "title": "Founder / Head of Operations",
+        "title": "Founder / Operations",
         "email": "pablo@coinest.co",
         "image": "",
         "country": "Arg"
@@ -41,20 +41,20 @@
     "button": "Suscribite"
   },
   "blogSection": {
-    "title": "Te invitamos a explorar nuestras noticias y tutoriales",
+    "title": "Explorá nuestras noticias y tutoriales",
     "subtitle": "Contenido simple y claro para descubrir las nuevas oportunidades",
     "articles": {
       "article1": {
-        "title": "¿Por qué entender qué es Bitcoin, Blockchain y Ethereum?",
-        "link": "https://blog.coinest.co/por-que-entender-bitcoin-blockchain-y-ethereum/"
-      },
-      "article2": {
-        "title": "¿Qué es un ICO?",
-        "link": "https://blog.coinest.co/tutorial-que-es-un-ico/"
-      },
-      "article3": {
         "title": "¿Qué son las criptomonedas?",
         "link": "https://blog.coinest.co/tutorial-que-son-las-criptomonedas/"
+      },
+      "article2": {
+        "title": "Las criptomonedas como nueva clase de activo",
+        "link": "https://blog.coinest.co/las-criptomonedas-como-nueva-clase-de-activos/"
+      },
+      "article3": {
+        "title": "¿Qué es un ICO?",
+        "link": "https://blog.coinest.co/tutorial-que-es-un-ico/"
       }
     }
   },

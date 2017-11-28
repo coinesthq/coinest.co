@@ -38,6 +38,9 @@
     "selectField2": "Nada",
     "selectField3": "Un poco",
     "selectField4": "Bastante",
+    "valueSelectField2": "Nada",
+    "valueSelecttField3": "Un poco",
+    "valueSelectField4": "Bastante",
     "button": "Suscribite"
   },
   "blogSection": {

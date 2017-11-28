@@ -35,9 +35,12 @@
     "title": "Newsletter subscription",
     "emailField": "Email",
     "selectField1": "¿How much do you know about cryptocurrencies?",
-    "selectField2": "Nada",
-    "selectField3": "Un poco",
-    "selectField4": "Bastante",
+    "selectField2": "Nothing",
+    "selectField3": "A little bit",
+    "selectField4": "A lot",
+    "valueSelectField2": "Nada",
+    "valueSelectField3": "Un poco",
+    "valueSelectField4": "Bastante",
     "button": "Subscribe"
   },
   "blogSection": {

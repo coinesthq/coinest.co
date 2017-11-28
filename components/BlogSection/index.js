@@ -16,8 +16,8 @@ const BlogSection = ({ t }) => (
           </a>
         </li>
         <li className="blog-list_item">
-          <a href={t('blogSection.articles.article2.link')} target="_blank">
-            {t('blogSection.articles.article2.title')}
+          <a href={t('blogSection.articles.article3.link')} target="_blank">
+            {t('blogSection.articles.article3.title')}
           </a>
         </li>
       </ul>

@@ -4,6 +4,7 @@ import CoinestLogo from './coinest-logo.svg';
 
 const Header = () => (
   <header>
+    <span className="red-line"></span>
     <div className="bg-logo">
       <BgLogo />
     </div>
@@ -35,7 +36,7 @@ const Header = () => (
       }
 
       .logo {
-        padding: 60px 0;
+        padding: 42px 0;
         margin: 0;
         font-size: 18px;
         color: #FD1C40;
@@ -44,6 +45,32 @@ const Header = () => (
         background-color: transparent;
       }
 
+      .red-line {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 140px;
+        height: 6px;
+        border: none;
+        background-color: #FD1C40;
+        text-align: left;
+      }
+
+      .red-line:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -20px;
+        width: 20px;
+        height: 100%;
+        background-color: rgba(253, 28, 64, 0.12);
+      }
+
+      @media (min-width: 992px) {
+        .logo {
+          padding: 60px 0;
+        }
+      }
       .bg-logo {
         position: absolute;
         top: 0;
@@ -66,6 +93,7 @@ const Header = () => (
 
       .bg-logo {
         max-width: 100%;
+        overflow: hidden;
       }
 
       ul {

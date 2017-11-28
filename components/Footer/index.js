@@ -4,6 +4,7 @@ import TwLogo from './icon-social-tw.svg';
 
 const Footer = ({ t }) => (
   <footer>
+    <span className="red-line"></span>
     <div className="inner-wrapper">
       <p className="legal-disclaimer">Copyright © 2017 Coinest. All rights reserved.</p>
       <nav>
@@ -22,6 +23,27 @@ const Footer = ({ t }) => (
         position: relative;
         padding: 60px 0 30px;
         background-color: rgba(207, 217, 223, 0.3);
+      }
+
+      .red-line {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 140px;
+        height: 6px;
+        border: none;
+        background-color: #FD1C40;
+        text-align: left;
+      }
+
+      .red-line:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: -20px;
+        width: 20px;
+        height: 100%;
+        background-color: rgba(253, 28, 64, 0.12);
       }
 
       .inner-wrapper {

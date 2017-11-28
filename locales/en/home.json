@@ -4,27 +4,27 @@
     "topContact": "Contacto@coinest.co"
   },
   "introSection": {
-    "mainTitle": "Explore. Learn. Invest.",
-    "mainDescription": "Somos la primera plataforma de Latinoamérica en acercar los proyectos más disruptivos de tecnología Blockchain a inversores de la región.",
-    "subtitle1": "El primer canal de distribución de tokens para inversores",
-    "subtext1": "Queremos acercar de una manera simple un nuevo tipo de activo como son las criptomonedas. Sabemos lo difícil que es participar en un ICO hoy en día. Mejoramos la experiencia de usuario durante el proceso de selección de proyectos disruptivos y en la adquisición de sus tokens.",
-    "subtitle2": "Una plataforma para la difusión de proyectos Blockchain",
-    "subtext2": "Ofrecemos un servicio de advertising para dar visibilidad a nuevos proyectos del ecosistema blockchain y conectarlos con potenciales inversores en Latinoamérica.",
-    "subtitle3": "Sobre nuestro equipo",
-    "subtext3": "Somos un grupo de analistas financieros y programadores blockchain que queremos eliminar barreras informativas, técnicas y operativas para acercar a la sociedad los beneficios del mundo de las criptomonedas."
+    "mainTitle": "Explore. Discover. Invest.",
+    "mainDescription": "We are the first Latin American platform to connect the most disruptive Blockchain technology projects with regional investors.",
+    "subtitle1": "First Latam token distribution channel for regional investors",
+    "subtext1": "Cryptocurrencies have emerged as a new asset class and we want to eliminate the technical gap needed to invest in them. We are aware of the current difficulties involved in participating in an ICO. We simplify the token acquisition user experience process and provide relevant information on blockchain projects.",
+    "subtitle2": "An advertising platform for Blockchain based business models",
+    "subtext2": "We offer an advertising service providing visibility to new decentralized business models and connect them with potential Latam investors.",
+    "subtitle3": "About the team",
+    "subtext3": "We are a team of financial analysts, engineers and blockchain developers working to eliminate technical and operational barriers needed to invest in cryptocurrencies in order to benefit society with blockchain technology."
   },
   "teamSection": {
     "teamMembers": {
       "teamMember1": {
         "name": "Julio Alvarez",
-        "title": "Founder / Head of Economic Research",
+        "title": "Founder / Economic Research",
         "email": "julio@coinest.co",
         "image": "",
         "country": "Arg"
       },
       "teamMember2": {
         "name": "Pablo Wilner",
-        "title": "Founder / Head of Operations",
+        "title": "Founder / Operations",
         "email": "pablo@coinest.co",
         "image": "",
         "country": "Arg"
@@ -32,29 +32,29 @@
     }
   },
   "newsletterSection": {
-    "title": "Suscripción al Newsletter",
+    "title": "Newsletter subscription",
     "emailField": "Email",
-    "selectField1": "¿Conoces de criptomonedas?",
+    "selectField1": "¿How much do you know about cryptocurrencies?",
     "selectField2": "Nada",
     "selectField3": "Poco",
     "selectField4": "Bastante",
-    "button": "Suscribite"
+    "button": "Subscribe"
   },
   "blogSection": {
-    "title": "Te invitamos a explorar nuestras noticias y tutoriales",
-    "subtitle": "Contenido simple y claro para descubrir las nuevas oportunidades",
-    "articles": {
+    "title": "Explore our news and tutorials",
+    "subtitle": "Discover new opportunities through simple and clarifying content",
+   "articles": {
       "article1": {
-        "title": "¿Por qué entender qué es Bitcoin, Blockchain y Ethereum?",
-        "link": "https://blog.coinest.co/por-que-entender-bitcoin-blockchain-y-ethereum/"
+        "title": "¿What is cryptocurrency?",
+        "link": "https://blog.coinest.co/tutorial-que-son-las-criptomonedas/"
       },
       "article2": {
-        "title": "¿Qué es un ICO?",
-        "link": "https://blog.coinest.co/tutorial-que-es-un-ico/"
+        "title": "Cryptocurrencies as a new asset class",
+        "link": "https://blog.coinest.co/las-criptomonedas-como-nueva-clase-de-activos/"
       },
       "article3": {
-        "title": "¿Qué son las criptomonedas?",
-        "link": "https://blog.coinest.co/tutorial-que-son-las-criptomonedas/"
+        "title": "¿What is an ICO?",
+        "link": "https://blog.coinest.co/tutorial-que-es-un-ico/"
       }
     }
   },
